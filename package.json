@@ -5,8 +5,8 @@
   "main": "app/index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack",
-    "heroku-prebuild": "npm install --dev"
+    "build": "webpack"
+
   },
   "babel": {
     "presets": [
