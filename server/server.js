@@ -21,17 +21,8 @@ validator.checkSetup();
 //import libraries needed for the webserver to work!
 const http = require("http");
 const express = require("express"); // backend framework for our node server.
-const session = require("express-session"); // library that stores info about each connected user
 const path = require("path"); // provide utilities for working with file and directory paths
 
-const api = require("./api");
-const auth = require("./auth");
-
-// socket stuff
-const socket = require("./server-socket");
-
-// Server configuration below
-// TODO change connection URL after setting up your team database
 
 
 // create a new express server
@@ -41,17 +32,9 @@ app.use(validator.checkRoutes);
 // allow us to process POST requests
 app.use(express.json());
 
-// set up a session, which will persist login data across requests
-app.use(
-  session({
-    secret: "session-secret",
-    resave: false,
-    saveUninitialized: false,
-  })
-);
 
-// this checks if the user is logged in, and populates "req.user"
-app.use(auth.populateCurrentUser);
+
+
 
 // connect user-defined routes
 app.use("/api", api);
