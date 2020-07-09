@@ -36,9 +36,6 @@ app.use(express.json());
 
 
 
-// connect user-defined routes
-app.use("/api", api);
-
 // load the compiled react files, which will serve /index.html and /bundle.js
 const reactPath = path.resolve(__dirname, "..", "client", "dist");
 app.use(express.static(reactPath));
