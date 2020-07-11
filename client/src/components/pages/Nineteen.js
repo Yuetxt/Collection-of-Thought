@@ -26,32 +26,7 @@ export default class Nine extends React.Component {
             </div>
             <div className = "main textcolor-white">
                 <h2>Home page</h2>
-                <p>sapien ut porta pfasdfasdasdfasdfsdasdfa
-                    sdfsdasdfasdfsdasdfasdfsdasdfasdfsdasdfasdfsdas
-                    dfasdfsdasdfasdfsdasdfasdfsdasdfasdasdfasdfsdasdfas
-                    dfsdasdfasdfsdasdfasdfsdasdfasdasdfasdfsdasdfasdfsdasdf
-                    asdfsdasdfasdfsdasdfasdasdfasdfsdasdfasdfsdasdfasdf
-                    sdasdfasdfsdasdfasdasdfasdfsdasdfasdfsdasdfasdfsdasdfasd
-                    fsdasdfasdasdfasdfsdasdfasdfsdasdfasdfsdasdfasdfsdas
-                    dfasdasdfasdfsdasdfasdfsdasdfasdfsdasdfasdfsdasdfas
-                    dasdfasdfsdasdfasdfsdasdfasdfsdasdfasdfsdasdfasdasdf
-                    asdfsdasdfasdfsdasdfasdfsdasdfasdfsdasdfasdasdfasdfsdas
-                    dfasdfsdasdfasdfsdasdfasdfsdasdfasdasdfasdfsdasdfasdfsdas
-                    dfasdfsdasdfasdfsdasdfasdasdfasdfsdasdfasdfsdasdfasdfsda
-                    sdfasdfsdasdfasdasdfasdfsdasdfasdfsdasdfasdfsdasdfasdfs
-                    dasdfasdasdfasdfsdasdfasdfsdasdfasdfsdasdfasdfsdasdfasda
-                    sdfasdfsdasdfasdfsdasdfasdfsdasdfasdfsdasdfasdasdfasdfsdas
-                    dfasdfsdasdfasdfsdasdfasdfsdasdfasdasdfasdfsdasdfasdfsdasd
-                    fasdfsdasdfasdfsdasdfasdasdfasdfsdasdfasdfsdasdfasdfsdas
-                    dfasdfsdasdfasdasdfasdfsdasdfasdfsdasdfasdfsdasdfasdfsd
-                    asdfasdasdfasdfsdasdfasdfsdasdfasdfsdasdfasdfsdasdfas
-                    dasdfasdfsdasdfasdfsdasdfasdfsdasdfasdfsdasdfasdasdf
-                    asdfsdasdfasdfsdasdfasdfsdasdfasdfsdasdfas
-                    dfasdfsdasdfasdfsdasdfasdfsdasdfasdfasdfasdfasdfasd
-                    fasdfasdfasdfasdfasdfasdfasdfasdfasdf
-                    asdfasdfaulvinar. Fusce non enim eu mi 
-                    bibendum fermentum vitae eu nisl. Curabitu
-                    r nec justo in odio dapibus vehicula. Nam
+                <p>Lorem ipsum dolor sit amet, porta quam scelerisque augue sollicitudin interdum, consequat sem hac, duis duis arcu, a semper pulvinar eget morbi aliquam. Elementum lobortis, phasellus lectus dui cras parturient tincidunt, tempus amet consectetuer eu tincidunt facilisis. Mattis metus, aliquam cras ligula convallis porta vitae, tortor integer vulputate morbi, odio vivamus sed proin in ultrices. Ipsa metus, eget ante. Hendrerit libero etiam pede in ut, molestie nunc, nunc habitant. Phasellus ut purus rerum urna vivamus. Mauris dui velit viverra consectetuer. Eros dignissim iaculis quisque maecenas. Metus ultricies augue faucibus pretium, dolor eleifend integer curabitur ut rutrum, interdum suscipit et eros, purus imperdiet volutpat ut donec leo risus, ante suscipit.
                 </p>
             </div>
         </div>
