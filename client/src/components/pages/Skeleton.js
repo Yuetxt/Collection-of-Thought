@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../../utilities.css";
-import "./Skeleton.css";
+import "./styling.css";
 
 //TODO: REPLACE WITH YOUR OWN CLIENT_ID
 

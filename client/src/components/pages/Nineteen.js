@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Skeleton.css";
+import "./styling.css";
 
 
 export default class Nine extends React.Component {

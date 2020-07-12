@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Skeleton.css";
+import "./styling.css";
 
 function MediumsNav ({ selected, onUpdateLanguage }) {
   const mediums = ['Books', 'Poems', 'Plays']
