@@ -27,7 +27,7 @@ export default class Nine extends React.Component {
             <div className = "main textcolor-white">
                 <h1 className="shift helv">20 June 2020</h1>
 
-<p className="helv">
+<p>
 When I first decided that I was going to read Orwell&rsquo;s dystopian novel, I had already been made aware of the general idea of Nineteen Eighty-Four thanks to the innumerable times the novel has been mentioned in media due to current events. In particular, China&rsquo;s desire to monitor and censor many aspects of the internet in a way similar to how the Thought police punish those with ideas unapproved by the collective society.</p>
 
 
