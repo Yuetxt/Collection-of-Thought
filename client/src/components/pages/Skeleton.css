@@ -6,7 +6,7 @@ html, body, #client {
 }
 
 body {
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  font-family: Helvetica;
 }
 
 ul {
@@ -51,6 +51,7 @@ li {
 
 .textcolor-white {
   color: var(--white);
+  font-family: Helvetica;
 }
 
 
@@ -67,7 +68,7 @@ li {
 
 #container {
   background-color: rgba(65, 57, 57, 0.178);
-  width: 85%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -96,6 +97,7 @@ li {
 a {
   text-decoration: none;
   color: red;
+  font-family: Helvetica;
 }
 
 p {
@@ -189,6 +191,18 @@ line-height: 17px;
   cursor: pointer;
 }
 
-.paragraph {
-  line-height: 2;
+p {
+  line-height: 2.5;
+  margin-bottom:6.2em;
+  font-size: 25px;
+  font-family: Helvetica;
+}
+
+.shift {
+  color: grey;
+  margin-left: 555px;
+}
+
+.helv {
+  font-family: 'Courier New';
 }

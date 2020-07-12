@@ -9,7 +9,7 @@ function MediumsNav ({ selected, onUpdateLanguage }) {
       {mediums.map((medium) => (
         <li key={medium}>
           <div
-            className='btn btn-one nav-link textColorWhite '
+            className='btn btn-one nav-link textColorWhite helv'
             style={medium === selected ? { color: 'rgb(187, 46, 31)' } : null}
             onClick={() => onUpdateLanguage(medium)}>
             {medium}
