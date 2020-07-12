@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import "../../utilities.css";
 import "./styling.css";
 
-//TODO: REPLACE WITH YOUR OWN CLIENT_ID
 
-class Skeleton extends Component {
+
+class Default extends Component {
   constructor(props) {
     super(props);
     // Initialize Default State
@@ -12,7 +12,7 @@ class Skeleton extends Component {
   }
 
   componentDidMount() {
-    // remember -- api calls go here!
+
   }
 
   render() {
@@ -24,4 +24,4 @@ class Skeleton extends Component {
   }
 }
 
-export default Skeleton;
+export default Default;
