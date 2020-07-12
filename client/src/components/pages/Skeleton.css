@@ -188,3 +188,7 @@ line-height: 17px;
   width: 250px;
   cursor: pointer;
 }
+
+.paragraph {
+  line-height: 2;
+}
