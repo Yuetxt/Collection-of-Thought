@@ -74,7 +74,7 @@ li {
 }
 
 #header {
-  background-color: #92a4ad;
+  background-color: #383d3f;
   color: white;
   text-align: center;
 }
@@ -200,9 +200,10 @@ p {
 
 .shift {
   color: grey;
-  margin-left: 555px;
+  display: flex;
+  justify-content: center;
 }
 
-.helv {
+.courier {
   font-family: 'Courier New';
 }
