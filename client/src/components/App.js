@@ -3,7 +3,6 @@ import { Router } from "@reach/router";
 import NotFound from "./pages/NotFound.js";
 import Mainpage from "./pages/Mainpage.js";
 import Nineteen from "./pages/Nineteen.js";
-import Crime from "./pages/Nineteen.js";
 import Crime from "./pages/Crime.js";
 
 
