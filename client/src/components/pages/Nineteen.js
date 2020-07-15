@@ -70,7 +70,7 @@ whether Nineteen Eighty-Four was a warning instead of a prediction.
             </div>
         </div>
         <div className = "footer textcolor-white">
-            Copyright &copy; 2020 Project
+            Written by Daniel Zheng
         </div>
     </div>
 </body>
