@@ -73,7 +73,7 @@ export default class Mainpage extends React.Component {
           <ul>
             <li className="post">
               <a className="link" href="/1984">
-                1984
+                Nineteen Eighty-Four
               </a>
             </li>
             <li className="post">
@@ -81,6 +81,62 @@ export default class Mainpage extends React.Component {
                 Crime and Punishment
               </a>
            </li>
+           <li className="post">
+               <a className="link" href="/Crime">
+                Ulysses
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Crime">
+                The Great Gatsby
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Crime">
+                The House of Seven Gables
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Crime">
+               Les Misérables
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Crime">
+                War and Peace
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Crime">
+                Brave New World
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Crime">
+                Wuthering Heights
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Crime">
+                The Picture of Dorian Gray
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Crime">
+                Dune
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Crime">
+                The Sorrows of Young Werther
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Crime">
+                Cry, the Beloved Country
+              </a>
+           </li>
+
           </ul>
             </span>}
         {this.isPlays() && 
@@ -94,6 +150,56 @@ export default class Mainpage extends React.Component {
             <li className="post">
                <a className="link" href="/Ernest">
                The Importance of Being Earnest
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                Oedipus Rex
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                King Lear
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                Romeo and Juliet
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                Pygamalion
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                Julius Caesar
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                Long Day's Journey into Night
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                The Merry Wives of Windsor
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                The Cherry Orchard
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                No Exit
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                Henry V
               </a>
            </li>
           </ul>
@@ -111,6 +217,92 @@ export default class Mainpage extends React.Component {
                 The Rime of the Anicent Mariner
               </a>
            </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                Iliad
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                Paradise Lost
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                The Canterbury Tales
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                Inferno
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                The Waste Land
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                Aeneid
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                Odyssey
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                Faust
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                The Charge of the Light Brigade
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                Paradiso
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                Song of Myself
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                The Tyger
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                Ode on a Grecian Urn
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                Ode to Joy
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                Kubla Khan
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                The Cantos
+              </a>
+           </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                My Last Duchess
+              </a>
+           </li>
+           
           </ul>
         </span>}
       </React.Fragment>
