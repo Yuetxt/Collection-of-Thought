@@ -208,43 +208,67 @@ p {
   font-family: 'Courier New';
 }
 
+.tomato {
+  font-family: 'Titillium Web';
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
 
-.potato {
-  cursor: pointer;
+.tomato * {
+  box-sizing: border-box;
+  transition: all .35s ease;
+}
+
+.tomato li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: .5em 1em;
+  paddin: 0;
+}
+
+.tomato a {
+  padding: .5em .8em;
+  color: rgba(255,255,255,.5);
   position: relative;
-  padding: 10px 20px;
+  text-decoration: none;
   font-size: 20px;
-  border-top-right-radius: 0px;
-  border-bottom-left-radius: 0px;
-  transition: all 2s;
-  background-color: #26262B;
 }
-.potato:after, .potato:before {
-  content: " ";
-  width: 0px;
-  height: 0px;
+
+.tomato a::before,
+.tomato a::after {
+  content: '';
+  height: 14px;
+  width: 14px;
   position: absolute;
-  border: 0px solid black;
-  transition: all .5s;
+  transition: all .35s ease;
+  opacity: 0;
 }
-.potato:after {
-  top: -1px;
-  left: -1px;
-  border-top: 5px solid #26262B;
-  border-left: 5px solid #26262B;
+
+.tomato a::before {
+  content: '';
+  right: 0;
+  top: 0;
+  border-top: 3px solid #3E8914;
+  border-right: 3px solid #2E640F;
+  transform: translate(-100%, 50%);
 }
-.potato:before {
-  bottom: -1px;
-  right: -1px;
-  border-bottom: 5px solid #26262B;
-  border-right: 5px solid #26262B;
+
+.tomato a:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid #2E640F;
+  border-left: 3px solid #3E8914;
+  transform: translate(100%, -50%)
 }
-.potato:hover {
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
+
+.tomato a:hover:before,
+.tomato a:hover:after{
+  transform: translate(0,0);
+  opacity: 1;
 }
-.potato:hover:before, .potato:hover:after {
-  width: 10%;
-  height: 50%;
-  border-color: white;
+
+.tomato a:hover {
+  color: #3DA35D;
 }
