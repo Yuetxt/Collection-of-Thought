@@ -202,6 +202,11 @@ export default class Mainpage extends React.Component {
                 Henry V
               </a>
            </li>
+           <li className="post">
+               <a className="link" href="/Ernest">
+                12 Angry Men
+              </a>
+           </li>
           </ul>
         </span>}
         {this.isPoems() && 
