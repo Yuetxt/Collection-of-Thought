@@ -72,19 +72,43 @@ export default class Mainpage extends React.Component {
         {this.isBooks() && <span>
           <ul>
             <li className="post">
-          <a className="link" href="/1984">
-            1984
-            </a>
-          </li>
-          <li className="post">
-          <a className="link" href="/nowhere">
-          Tristram Shandy
-          </a>
-          </li>
+              <a className="link" href="/1984">
+                1984
+              </a>
+            </li>
+            <li className="post">
+               <a className="link" href="/Crime">
+                Crime and Punishment
+              </a>
+           </li>
           </ul>
             </span>}
         {this.isPlays() && <p>PLAYS</p>}
+        <ul>
+            <li className="post">
+              <a className="link" href="/1984">
+                1984
+              </a>
+            </li>
+            <li className="post">
+               <a className="link" href="/nowhere">
+                Crime and Punishment
+              </a>
+           </li>
+          </ul>
         {this.isPoems() && <p>POEMS</p>}
+        <ul>
+            <li className="post">
+              <a className="link" href="/1984">
+                1984
+              </a>
+            </li>
+            <li className="post">
+               <a className="link" href="/nowhere">
+                Crime and Punishment
+              </a>
+           </li>
+          </ul>
       </React.Fragment>
     )
   }
