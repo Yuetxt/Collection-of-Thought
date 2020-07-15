@@ -36,11 +36,11 @@ export default class Crime extends React.Component {
                 <p>Ironically, Sonya&rsquo;s sins are for the benefit of her family. Interestingly enough, nearly no character throughout the novel realizes this. Characters who do speak on the manner of Sonya&rsquo;s acts blame her for resorting to indecency to support her family.</p>
                 <p>Whereas nearly no character throughout the novel realizes that Raskolnikov&rsquo;s acts alienate himself from his closed ones because he only has his own goals in mind. The major characters that support him all do so with no hesitation or objection even until the end. They felt the need or duty to aid Raskolnikov&rsquo;s in any shape or form. Even going as far as to allow him to separate himself from them to let him &ldquo;succeed&rdquo;.</p>
                 <p>I want to believe that at the end of the novel Raskolnikov&rsquo;s truly realized what his crime and respective punishment were. That the endless affection and care from Sonya finally revitalized his human empathy.</p>
-                <p>
-                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
-                <p>On Raskolnikov&rsquo;s Theory</p>
-                <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
-                <p>Raskolnikov had realized it himself; Napoleon would have not questioned his morals nor succumb to psychological trauma.</p>
+                <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+                <p className="shift">On Raskolnikov&rsquo;s Theory</p>
+                <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+                <p>While his consciousness was eating him alive, Raskolnikov had realized it himself; Napoleon would have not questioned his morals nor succumb to psychological trauma.</p>
+                <p className="shift">&lsquo;That&rsquo;s enough!&rsquo; he declared, solemnly and resolutely. &lsquo;Away with<br/>mirages, away with imaginary terrors, away with phantoms!&#8230;<br/></p>
                 <p>The categorization of humanity into such simplistic terms is a concept that can be done, yet the idea should never thereafter affect one&rsquo;s state of mind.</p>
                 <p>Why so?</p>
                 <p>In the manner that Raskolnikov had done it, the theory results from the most exceptionally influential leaders in history. The aftermath of their careers as one will.</p>
