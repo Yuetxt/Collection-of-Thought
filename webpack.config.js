@@ -66,5 +66,8 @@ module.exports = {
     historyApiFallback: true,
     contentBase: "./client/dist",
     hot: true,
+    proxy: {
+      "/api": "http://localhost:3000",
+    },
   },
 };
