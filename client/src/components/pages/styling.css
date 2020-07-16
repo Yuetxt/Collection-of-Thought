@@ -209,7 +209,7 @@ p {
 }
 
 .tomato {
-  font-family: 'Titillium Web';
+  font-family: 'Titillium Web';  
   text-transform: uppercase;
   text-align: center;
   font-weight: 600;
@@ -224,7 +224,7 @@ p {
   display: inline-block;
   list-style: outside none none;
   margin: .5em 1em;
-  paddin: 0;
+  padding: 0;
 }
 
 .tomato a {

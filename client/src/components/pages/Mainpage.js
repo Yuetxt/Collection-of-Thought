@@ -82,7 +82,7 @@ export default class Mainpage extends React.Component {
               </a>
            </li>
            <li className="post">
-               <a className="link" href="/Crime">
+               <a className="link" href="/Ulysses">
                 Ulysses
               </a>
            </li>

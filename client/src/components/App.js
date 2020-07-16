@@ -4,6 +4,7 @@ import NotFound from "./pages/NotFound.js";
 import Mainpage from "./pages/Mainpage.js";
 import Nineteen from "./pages/Nineteen.js";
 import Crime from "./pages/Crime.js";
+import Ulysses from "./pages/Ulysses.js";
 
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
         <Router>
           <Nineteen path= "/1984"/>
           <Crime path="/Crime"/>
+          <Ulysses path="/Ulysses"/>
           <Mainpage path= "/"/>
           <NotFound default />
         </Router>
