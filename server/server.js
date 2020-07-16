@@ -15,8 +15,7 @@
 
 // validator runs some basic checks to make sure you've set everything up correctly
 // this is a tool provided by staff, so you don't need to worry about it
-const validator = require("./validator");
-validator.checkSetup();
+
 
 //import libraries needed for the webserver to work!
 const http = require("http");
@@ -27,7 +26,10 @@ const path = require("path"); // provide utilities for working with file and dir
 
 // create a new express server
 const app = express();
-app.use(validator.checkRoutes);
+app.use(checkRoutes);
+
+// allow us to process POST requests
+app.use(express.json());
 
 
 
