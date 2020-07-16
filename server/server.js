@@ -15,9 +15,6 @@
 
 // validator runs some basic checks to make sure you've set everything up correctly
 // this is a tool provided by staff, so you don't need to worry about it
-const validator = require("./validator");
-validator.checkSetup();
-
 //import libraries needed for the webserver to work!
 const http = require("http");
 const express = require("express"); // backend framework for our node server.
@@ -29,8 +26,6 @@ const path = require("path"); // provide utilities for working with file and dir
 const app = express();
 app.use(validator.checkRoutes);
 
-// allow us to process POST requests
-app.use(express.json());
 
 
 
@@ -45,21 +40,7 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(reactPath, "index.html"));
 });
 
-// any server errors cause this function to run
-app.use((err, req, res, next) => {
-  const status = err.status || 500;
-  if (status === 500) {
-    // 500 means Internal Server Error
-    console.log("The server errored when processing a request!");
-    console.log(err);
-  }
 
-  res.status(status);
-  res.send({
-    status: status,
-    message: err.message,
-  });
-});
 
 // hardcode port to 3000 for now
 const port = process.env.PORT || 3000;
