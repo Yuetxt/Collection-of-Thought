@@ -26,7 +26,7 @@ export default class Ulysses extends React.Component {
             </div>
             <div className = "main textcolor-white">
                 <h1 className="shift courier">1 July 2020</h1>
-                <a href="client\src\components\Ulysses (Gabler Edition) by James Joyce, Hans Gabler.pdf" download>click</a>
+                
             </div>
         </div>
         <div className = "footer textcolor-white">
