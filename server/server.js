@@ -22,10 +22,6 @@ const path = require("path"); // provide utilities for working with file and dir
 
 
 
-// create a new express server
-const app = express();
-app.use(validator.checkRoutes);
-
 
 
 
