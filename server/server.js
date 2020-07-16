@@ -26,11 +26,6 @@ const path = require("path"); // provide utilities for working with file and dir
 
 // create a new express server
 const app = express();
-app.use(checkRoutes);
-
-// allow us to process POST requests
-app.use(express.json());
-
 
 
 
@@ -45,20 +40,7 @@ app.get("*", (req, res) => {
 });
 
 // any server errors cause this function to run
-app.use((err, req, res, next) => {
-  const status = err.status || 500;
-  if (status === 500) {
-    // 500 means Internal Server Error
-    console.log("The server errored when processing a request!");
-    console.log(err);
-  }
 
-  res.status(status);
-  res.send({
-    status: status,
-    message: err.message,
-  });
-});
 
 // hardcode port to 3000 for now
 const port = process.env.PORT || 3000;
