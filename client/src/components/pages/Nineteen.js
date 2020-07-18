@@ -15,7 +15,7 @@ export default class Nine extends React.Component {
 <body>
     <div id = "container">
         <div id = "header">
-            <h1 className= "textcolor-white courier">1984</h1>
+            <h1 className= "textcolor-white courier">Nineteen Eighty-Four</h1>
         </div>
         <div id = "content">
             <div className ="nav textcolor-white flex-center">
