@@ -2,7 +2,7 @@ import React from 'react'
 import "./styling.css";
 
 function MediumsNav ({ selected, onUpdateLanguage }) {
-  const mediums = ['Books', 'Poems', 'Plays']
+  const mediums = ['Books', 'Poems', 'Plays','My Works']
 
   return (
     <ul className='flex-center'>
