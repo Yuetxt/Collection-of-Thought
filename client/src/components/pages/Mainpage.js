@@ -87,27 +87,27 @@ export default class Mainpage extends React.Component {
               </a>
            </li>
            <li className="post">
-               <a className="link" href="/Crime">
+               <a className="link" href="/Gatsby">
                 The Great Gatsby
               </a>
            </li>
            <li className="post">
-               <a className="link" href="/Crime">
+               <a className="link" href="/Gables">
                 The House of Seven Gables
               </a>
            </li>
            <li className="post">
-               <a className="link" href="/Crime">
+               <a className="link" href="/LesMis">
                Les Misérables
               </a>
            </li>
            <li className="post">
-               <a className="link" href="/Crime">
+               <a className="link" href="/WarPeace">
                 War and Peace
               </a>
            </li>
            <li className="post">
-               <a className="link" href="/Crime">
+               <a className="link" href="/BraveNewWorld">
                 Brave New World
               </a>
            </li>
