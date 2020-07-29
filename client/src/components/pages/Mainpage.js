@@ -92,51 +92,25 @@ export default class Mainpage extends React.Component {
               </a>
            </li>
            <li className="post">
-               <a className="link" href="/Gables">
-                The House of Seven Gables
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/LesMis">
-               Les Misérables
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/WarPeace">
-                War and Peace
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/BraveNewWorld">
+               <a className="link" href="/Brave">
                 Brave New World
               </a>
            </li>
            <li className="post">
-               <a className="link" href="/Crime">
-                Wuthering Heights
+               <a className="link" href="/Gables">
+                x
               </a>
            </li>
            <li className="post">
-               <a className="link" href="/Crime">
-                The Picture of Dorian Gray
+               <a className="link" href="/LesMis">
+               y
               </a>
            </li>
            <li className="post">
-               <a className="link" href="/Crime">
-                Dune
+               <a className="link" href="/WarPeace">
+                z
               </a>
            </li>
-           <li className="post">
-               <a className="link" href="/Crime">
-                The Sorrows of Young Werther
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Crime">
-                Cry, the Beloved Country
-              </a>
-           </li>
-
           </ul>
             </span>}
         {this.isPlays() && 
@@ -149,62 +123,17 @@ export default class Mainpage extends React.Component {
             </li>
             <li className="post">
                <a className="link" href="/Ernest">
-               The Importance of Being Earnest
+               x
               </a>
            </li>
            <li className="post">
                <a className="link" href="/Ernest">
-                Oedipus Rex
+                y
               </a>
            </li>
            <li className="post">
                <a className="link" href="/Ernest">
-                King Lear
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                Romeo and Juliet
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                Pygamalion
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                Julius Caesar
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                Long Day's Journey into Night
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                The Merry Wives of Windsor
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                The Cherry Orchard
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                No Exit
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                Henry V
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                12 Angry Men
+                z
               </a>
            </li>
           </ul>
@@ -224,90 +153,19 @@ export default class Mainpage extends React.Component {
            </li>
            <li className="post">
                <a className="link" href="/Ernest">
-                Iliad
+                x
               </a>
            </li>
            <li className="post">
                <a className="link" href="/Ernest">
-                Paradise Lost
+                y
               </a>
            </li>
            <li className="post">
                <a className="link" href="/Ernest">
-                The Canterbury Tales
+                z
               </a>
            </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                Inferno
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                The Waste Land
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                Aeneid
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                Odyssey
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                Faust
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                The Charge of the Light Brigade
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                Paradiso
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                Song of Myself
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                The Tyger
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                Ode on a Grecian Urn
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                Ode to Joy
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                Kubla Khan
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                The Cantos
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                My Last Duchess
-              </a>
-           </li>
-           
           </ul>
         </span>}
       </React.Fragment>

@@ -26,7 +26,7 @@ export default class Ulysses extends React.Component {
             </div>
             <div className = "main textcolor-white">
                 <h1 className="shift courier">1 July 2020</h1>
-                <p>Of all the books I have ever read, <i>Ulysses</i> is the one that I wish to return to in the future the most. The depth of the novel is so broad even with it all occurring within a day. It&rsquo;s spectacular. I have read about references to Lazarus and plenty of other literary mentions like Hamlet. The former reminds me of <i>Crime and Punishment</i> specifically because an excerpt of the raising of Lazarus is read in it.</p>
+                <p>Of all the books I have ever read, <i>Ulysses</i> is the one that I wish to return to in the future the most. The depth of the novel is broad since it all occurs within a day. It&rsquo;s spectacular. There are references to Lazarus and Hamlet from page to page. The former reminds me of <i>Crime and Punishment</i> specifically because an excerpt of the raising of Lazarus is actually read in it.</p>
 
 <p>Those references alone make the entire journey of beginning to end an experience that is enriching like none other.</p>
 

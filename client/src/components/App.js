@@ -7,6 +7,7 @@ import Crime from "./pages/Crime.js";
 import Ulysses from "./pages/Ulysses.js";
 import Godot from "./Plays.js/Godot.js";
 import Gatsby from "./pages/Gatsby.js";
+import Brave from "./pages/Brave.js";
 
 
 class App extends Component {
@@ -26,6 +27,7 @@ class App extends Component {
           <Ulysses path="/Ulysses"/>
           <Godot path="/Godot"/>
           <Gatsby path="/Gatsby"/>
+          <Brave path="/Brave"/>
           <Mainpage path= "/"/>
           <NotFound default />
         </Router>
