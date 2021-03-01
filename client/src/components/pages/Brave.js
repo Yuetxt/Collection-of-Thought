@@ -10,7 +10,7 @@ export default class Brave extends React.Component {
     return (
 <html>
 <head>
-  <title>Brave New World</title>
+  <title>POTATO</title>
 </head>
 <body>
     <div id = "container">
