@@ -73,7 +73,7 @@ export default class Mainpage extends React.Component {
           <ul className="tomato">
             <li className="post">
               <a className="link" href="/1984">
-                Nineteen Eighty-Four
+                Changes
               </a>
             </li>
             <li className="post">
