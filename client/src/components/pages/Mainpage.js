@@ -2,7 +2,7 @@ import React from 'react'
 import "./styling.css";
 
 function MediumsNav ({ selected, onUpdateLanguage }) {
-  const mediums = ['Books', 'Poems', 'Plays','My Works']
+  const mediums = ['Project', 'About']
 
   return (
     <ul className='flex-center'>
@@ -26,7 +26,7 @@ export default class Mainpage extends React.Component {
     super(props)
 
     this.state = {
-      selectedLanguage: 'Books',
+      selectedLanguage: 'Project',
     }
 
     this.updateLanguage = this.updateLanguage.bind(this)
@@ -44,13 +44,13 @@ export default class Mainpage extends React.Component {
   isLoading() {
     return this.state.repos === null && this.state.error === null
   }
-  isBooks() {
-    if (this.state.selectedLanguage === "Books") {
+  isProject() {
+    if (this.state.selectedLanguage === "Project") {
       return true
     }
   }
-  isPlays() {
-    if (this.state.selectedLanguage === "Plays") {
+  isAbout() {
+    if (this.state.selectedLanguage === "About") {
       return true
     }
   }
@@ -69,103 +69,23 @@ export default class Mainpage extends React.Component {
           selected={selectedLanguage}
           onUpdateLanguage={this.updateLanguage}
         />
-        {this.isBooks() && <span>
+        {this.isProject() && <span>
           <ul className="tomato">
             <li className="post">
               <a className="link" href="/1984">
                 Changes
               </a>
             </li>
-            <li className="post">
-               <a className="link" href="/Crime">
-                Crime and Punishment
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ulysses">
-                Ulysses
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Gatsby">
-                The Great Gatsby
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Brave">
-                Brave New World
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Gables">
-                x
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/LesMis">
-               y
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/WarPeace">
-                z
-              </a>
-           </li>
           </ul>
-            </span>}
-        {this.isPlays() && 
+        </span>}
+        {this.isAbout() && 
         <span>
             <ul className="tomato">
             <li className="post">
-              <a className="link" href="/Godot">
-                Waiting for Godot
-              </a>
-            </li>
-            <li className="post">
-               <a className="link" href="/Ernest">
-               x
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                y
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                z
-              </a>
-           </li>
-          </ul>
-        </span>}
-        {this.isPoems() && 
-        <span>
-                    <ul className="tomato">
-            <li className="post">
               <a className="link" href="/Fire&Ice">
-                Fire and Ice
+                testing
               </a>
             </li>
-            <li className="post">
-               <a className="link" href="/Rime">
-                The Rime of the Anicent Mariner
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                x
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                y
-              </a>
-           </li>
-           <li className="post">
-               <a className="link" href="/Ernest">
-                z
-              </a>
-           </li>
           </ul>
         </span>}
       </React.Fragment>
